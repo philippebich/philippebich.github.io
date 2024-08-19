@@ -1,7 +1,8 @@
 /* Ensure consistent font family */
 .news {
     margin-top: 0px; /* Space above the news section */
-    padding: 10px;
+    background-color: white;
+    padding: 0%;
     border-radius: 5px; /* Rounded corners */
     font-family: Arial, sans-serif; /* Ensure font family is consistent */
 }
@@ -16,20 +17,17 @@
 /* Style the news table */
 .table-responsive {
     margin-top: 10px;
+    max-height: 30vw; /* Limit the height of the table */
+    overflow-y: auto; /* Show vertical scrollbar */
 }
 
-.table.table-sm {
-    font-size: 0.875rem; /* Consistent font size with other small tables */
-}
-
-.table-borderless th {
-    width: 120px; /* Adjust width for better alignment */
-    font-weight: bold; /* Ensure header text is bold */
-}
-
+/* Make the table borderless and align content to the top */
+.table-borderless th, 
 .table-borderless td {
-    text-align: left;
-    vertical-align: top;
+    border: none; /* Remove borders from table cells */
+    text-align: left; /* Align text to the left */
+    vertical-align: top; /* Align content to the top */
+    padding: 8px; /* Optional: Add padding for better spacing */
 }
 
 /* Style news links */
@@ -41,12 +39,6 @@
 
 .news-title:hover {
     text-decoration: underline; /* Underline on hover for better UX */
-}
-
-/* Scrollbar styling */
-.table-responsive {
-    max-height: 20vw; /* Limit the height of the table */
-    overflow-y: auto; /* Show vertical scrollbar */
 }
 
 /* Optional: WebKit-based scrollbar styling */
