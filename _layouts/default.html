@@ -16,13 +16,7 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <main>
-      {{ content }}
-      
-      {% if page.show_news != false %}
-        {% include news.html %}
-      {% endif %}
-    </main>
+    {{ content }}
 
     <div class="page__footer">
       <footer>
