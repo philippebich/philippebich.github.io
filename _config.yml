@@ -344,3 +344,9 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Added by me
+collections:
+  news:
+    output: true
+    permalink: /news/:path/
