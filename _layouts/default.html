@@ -15,12 +15,12 @@ layout: compress
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
-    {% if page.news -%}
-    <!-- News -->
-    {%- include news.html %}
-    {%- endif %}
 
     {{ content }}
+
+    {% if page.news %}
+      {% include news.html %}
+    {% endif %}
 
     <div class="page__footer">
       <footer>
