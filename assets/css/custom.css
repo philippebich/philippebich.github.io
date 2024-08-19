@@ -21,10 +21,9 @@
     overflow-y: auto; /* Show vertical scrollbar */
 }
 
-/* Remove table borders and align content to the top */
 .table-borderless th, 
 .table-borderless td {
-    border: none; /* Remove borders from table cells */
+    border: 1px solid #dee2e6; /* Add borders to table cells */
     text-align: left;
     vertical-align: top; /* Align content to the top */
 }
