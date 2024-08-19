@@ -1,26 +1,29 @@
-<div class="ai">
-    <h2>News</h2>
-    {% if site.news.size > 0 %}
+<div class="main-content">
+    <div class="news">
+      <h2>News</h2>
+      {% if site.news.size > 0 %}
         {%- assign news_items = site.news | reverse -%}
         {%- assign news_limit = site.news_limit | default: site.news.size -%}
         
         <div class="table-responsive" {% if site.news_scrollable and news_items.size > 5 %}style="max-height: 20vw; overflow-y: auto;"{% endif %}>
-            <table class="table table-sm table-borderless">
-                {% for item in news_items limit: news_limit %}
-                    <tr>
-                        <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
-                        <td>
-                            {% if item.inline %}
-                                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                            {% else %}
-                                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title | default: item.content | remove: '<p>' | remove: '</p>' }}</a>
-                            {% endif %}
-                        </td>
-                    </tr>
-                {% endfor %}
-            </table>
+          <table class="table table-sm table-borderless">
+            {% for item in news_items limit: news_limit %}
+              <tr>
+                <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+                <td>
+                  {% if item.inline %}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                  {% else %}
+                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title | default: item.content | remove: '<p>' | remove: '</p>' }}</a>
+                  {% endif %}
+                </td>
+              </tr>
+            {% endfor %}
+          </table>
         </div>
-    {% else %}
+      {% else %}
         <p>No news so far...</p>
-    {% endif %}
-</div>
+      {% endif %}
+    </div>
+  </div>
+  
