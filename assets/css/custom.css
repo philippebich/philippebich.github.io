@@ -1,0 +1,55 @@
+/* Styling for the news section */
+.news {
+    margin-top: 20px; /* Add some space above the news section */
+    padding: 10px;
+    background-color: #f8f9fa; /* Light grey background */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.news h2 {
+    font-size: 1.5rem; /* Adjust headline size */
+    margin-bottom: 15px; /* Space between the headline and the content */
+}
+
+.table-responsive {
+    margin-top: 10px;
+}
+
+.table.table-borderless th {
+    width: 100px; /* Ensure date column is aligned properly */
+}
+
+.table.table-borderless td {
+    text-align: left;
+    vertical-align: top;
+}
+
+.news-title {
+    font-weight: bold;
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none;
+}
+
+.news-title:hover {
+    text-decoration: underline;
+}
+
+/* Scrollbar for the news section */
+.table-responsive {
+    max-height: 20vw; /* Set a maximum height for the table */
+    overflow-y: auto; /* Add a vertical scrollbar when needed */
+}
+
+/* Optional: Styling for the scrollbar (works in WebKit-based browsers) */
+.table-responsive::-webkit-scrollbar {
+    width: 10px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color when hovered */
+}
