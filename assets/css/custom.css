@@ -1,7 +1,7 @@
 /* Ensure consistent font family */
 .news {
     margin-top: 0px; /* Space above the news section */
-    background-color: aliceblue;
+    background-color: rgb(182, 208, 231);
     padding: 0%;
     border-radius: 5px; /* Rounded corners */
     font-family: Arial, sans-serif; /* Ensure font family is consistent */
@@ -17,7 +17,7 @@
 /* Style the news table */
 .table-responsive {
     margin-top: 10px;
-    max-height: 30vw; /* Limit the height of the table */
+    max-height: 20vw; /* Limit the height of the table */
     overflow-y: auto; /* Show vertical scrollbar */
 }
 
