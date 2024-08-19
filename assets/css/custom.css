@@ -1,7 +1,7 @@
 /* Ensure consistent font family */
 .news {
     margin-top: 0px; /* Space above the news section */
-    background-color: rgb(182, 208, 231);
+    background-color: white;
     padding: 0%;
     border-radius: 5px; /* Rounded corners */
     font-family: Arial, sans-serif; /* Ensure font family is consistent */
