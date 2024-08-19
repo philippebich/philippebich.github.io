@@ -10,8 +10,7 @@ news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 ---
 
-Description of myself
+Description of myself 2
 
-{% if page.news != false %}
-  {% include news.html %}
-{% endif %}
+{% include news.html %}
+{% include selected_papers.html %}
