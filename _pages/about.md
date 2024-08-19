@@ -11,3 +11,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 ---
 
 Description of myself
+
+{% if page.show_news != false %}
+  {% include news.html %}
+{% endif %}
