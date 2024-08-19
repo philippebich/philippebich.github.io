@@ -1,7 +1,7 @@
 /* Ensure consistent font family */
 .news {
     margin-top: 0px; /* Space above the news section */
-    background-color: white;
+    background-color: aliceblue;
     padding: 0%;
     border-radius: 5px; /* Rounded corners */
     font-family: Arial, sans-serif; /* Ensure font family is consistent */
@@ -21,13 +21,12 @@
     overflow-y: auto; /* Show vertical scrollbar */
 }
 
-/* Make the table borderless and align content to the top */
+/* Remove table borders and align content to the top */
 .table-borderless th, 
 .table-borderless td {
     border: none; /* Remove borders from table cells */
-    text-align: left; /* Align text to the left */
+    text-align: left;
     vertical-align: top; /* Align content to the top */
-    padding: 8px; /* Optional: Add padding for better spacing */
 }
 
 /* Style news links */
