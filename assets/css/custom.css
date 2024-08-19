@@ -1,55 +1,65 @@
-/* Styling for the news section */
+/* Ensure consistent font family */
 .news {
-    margin-top: 20px; /* Add some space above the news section */
+    margin-top: 10px; /* Space above the news section */
     padding: 10px;
-    background-color: #f8f9fa; /* Light grey background */
+    background-color: #f8f9fa; /* Light grey background to match common theme */
     border-radius: 5px; /* Rounded corners */
+    font-family: Arial, sans-serif; /* Ensure font family is consistent */
 }
 
+/* Style the news heading */
 .news h2 {
-    font-size: 1.5rem; /* Adjust headline size */
-    margin-bottom: 15px; /* Space between the headline and the content */
+    font-size: 1.5rem; /* Adjust size to match theme */
+    margin-bottom: 15px; /* Space below heading */
+    font-weight: bold; /* Maintain consistency in font weight */
 }
 
+/* Style the news table */
 .table-responsive {
     margin-top: 10px;
 }
 
-.table.table-borderless th {
-    width: 100px; /* Ensure date column is aligned properly */
+.table.table-sm {
+    font-size: 0.875rem; /* Consistent font size with other small tables */
 }
 
-.table.table-borderless td {
+.table-borderless th {
+    width: 120px; /* Adjust width for better alignment */
+    font-weight: bold; /* Ensure header text is bold */
+}
+
+.table-borderless td {
     text-align: left;
     vertical-align: top;
 }
 
+/* Style news links */
 .news-title {
     font-weight: bold;
-    color: #007bff; /* Bootstrap primary color */
-    text-decoration: none;
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underlines */
 }
 
 .news-title:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline on hover for better UX */
 }
 
-/* Scrollbar for the news section */
+/* Scrollbar styling */
 .table-responsive {
-    max-height: 20vw; /* Set a maximum height for the table */
-    overflow-y: auto; /* Add a vertical scrollbar when needed */
+    max-height: 20vw; /* Limit the height of the table */
+    overflow-y: auto; /* Show vertical scrollbar */
 }
 
-/* Optional: Styling for the scrollbar (works in WebKit-based browsers) */
+/* Optional: WebKit-based scrollbar styling */
 .table-responsive::-webkit-scrollbar {
-    width: 10px;
+    width: 12px; /* Adjust scrollbar width */
 }
 
 .table-responsive::-webkit-scrollbar-thumb {
-    background-color: #888; /* Color of the scrollbar thumb */
-    border-radius: 10px;
+    background-color: #888; /* Darker thumb color */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
 }
 
 .table-responsive::-webkit-scrollbar-thumb:hover {
-    background-color: #555; /* Color when hovered */
+    background-color: #555; /* Darker color on hover */
 }
