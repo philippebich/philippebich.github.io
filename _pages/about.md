@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Description of myself
 
 A data-driven personal website
 ======
@@ -23,6 +23,26 @@ Getting started
 1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
 1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
 1. Check status by going to the repository settings, in the "GitHub pages" section
+
+## Recent News
+
+<div style="max-height: 300px; overflow-y: auto; border: 1px solid #ddd; padding: 10px;">
+
+- **August 19, 2024** - News Item 1: Description of the news item.
+- **August 18, 2024** - News Item 2: Description of the news item.
+- **August 17, 2024** - News Item 3: Description of the news item.
+- **August 16, 2024** - News Item 4: Description of the news item.
+- **August 15, 2024** - News Item 5: Description of the news item.
+- **August 14, 2024** - News Item 6: Description of the news item.
+- **August 13, 2024** - News Item 7: Description of the news item.
+- **August 12, 2024** - News Item 8: Description of the news item.
+- **August 11, 2024** - News Item 9: Description of the news item.
+- **August 10, 2024** - News Item 10: Description of the news item.
+- **August 9, 2024** - News Item 11: Description of the news item.
+- **August 8, 2024** - News Item 12: Description of the news item.
+
+</div>
+
 
 Site-wide configuration
 ------
