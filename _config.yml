@@ -299,7 +299,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jekyll/scholar
   - jekyll-redirect-from
 # mimic GitHub Pages with --safe
 whitelist:
@@ -364,7 +363,7 @@ scholar:
   style: apa
   locale: en
 
-  source: /_bibliography/
+  source: ./_bibliography
   bibliography: papers.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter

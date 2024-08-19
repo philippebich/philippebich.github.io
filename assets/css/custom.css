@@ -52,3 +52,25 @@
 .table-responsive::-webkit-scrollbar-thumb:hover {
     background-color: #555; /* Darker color on hover */
 }
+
+.publication-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.publication-image img {
+    width: 60px; /* Adjust size accordingly */
+    height: 60px;
+    border-radius: 50%; /* Optional, for round images */
+    margin-right: 20px;
+}
+
+.publication-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.publication-details p {
+    margin: 0;
+}

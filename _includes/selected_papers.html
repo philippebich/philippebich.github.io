@@ -1,5 +1,12 @@
 
 <div class="publications">
-    <h2>Selected Publications</h2>
-    {% bibliography -f papers -q @*[selected=true]* %}
-  </div>
+  <h2>Selected Publications</h2>
+  {% for paper in site.data.publications %}
+    {% include publication.html 
+      image_url=paper.image_url 
+      title="Ciao" 
+      authors=paper.authors 
+      journal=paper.journal 
+      year=paper.year %}
+  {% endfor %}
+</div>
