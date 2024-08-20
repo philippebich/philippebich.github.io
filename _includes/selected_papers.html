@@ -1,12 +1,18 @@
-
 <div class="publications">
-  <h2>Selected Publications</h2>
+  <h2>Publications</h2>
   {% for paper in site.data.publications %}
-    {% include publication.html 
-      image_url=paper.image_url 
-      title="Ciao" 
-      authors=paper.authors 
-      journal=paper.journal 
-      year=paper.year %}
+    <div class="publication-item">
+      <div class="publication-image">
+        <img src="{{ paper.image_url }}" alt="Publication Image">
+      </div>
+      <div class="publication-details">
+        <h3>{{ paper.title }}</h3>
+        <p class="authors">
+          {{ paper.authors | replace: "Philippe Bich", "<span class='underline'>Philippe Bich</span>" | raw }}
+        </p>
+        <p class="journal">{{ paper.journal }}</p>
+        <p class="year">{{ paper.year }}</p>
+      </div>
+    </div>
   {% endfor %}
 </div>
