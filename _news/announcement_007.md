@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-09-28 14:00:00-0400
+date: 2024-04-22 14:00:00-0400
 inline: true
 ---
 
-Announce **"A paper""**!
+Do you want to make **Vision Transformers** super small? Today I am in **Abu Dhabi** 🐫 to present my paper **"Optimizing Vision Transformers: Leveraging Max and Min Operations for Efficient Pruning"** at the AICAS conference! 🌴

@@ -34,8 +34,20 @@
   journal: "CVPR"
   year: "2023"
 
+- image_url: "images/pub/mwscas2023.png"
+  title: "Multiply-And-Max/min Neurons at the Edge: Pruned Autoencoder Implementation"
+  authors: "Philippe Bich, Luciano Prono, Fabio Pareschi, Riccardo Rovatti, Gianluca Setti"
+  journal: "MWSCAS"
+  year: "2023"
+
 - image_url: "images/pub/icra2022.png"
   title: "Visual Navigation Using Sparse Optical Flow and Time-To-Transit"
   authors: "Chiara Boretti, Philippe Bich, Yanyu Zhang, John Baillieul"
   journal: "ICRA"
+  year: "2022"
+
+- image_url: "images/pub/biocas2022.png"
+  title: "Aggresively prunable MAM-based Deep Neural Oracle for ECG acquisition by Compressed Sensing"
+  authors: "Philippe Bich, Luciano Prono, Mauro Mangia, Fabio Pareschi, Riccardo Rovatti, Gianluca Setti"
+  journal: "BioCAS"
   year: "2022"
