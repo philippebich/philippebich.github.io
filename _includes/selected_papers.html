@@ -14,6 +14,10 @@
           {{ paper.journal }}
           {% if paper.preprinturl %}
             - Preprint available <a href="{{ paper.preprinturl }}">here</a>
+          {% elsif paper.paperurl %}
+            - You can read this publication <a href="{{ paper.paperurl }}">here</a>!
+          {% else %}
+            - The link to this publication will be available soon.
           {% endif %}
         </p>
         <p class="year">{{ paper.year }}</p>
@@ -21,3 +25,4 @@
     </div>
   {% endfor %}
 </div>
+
