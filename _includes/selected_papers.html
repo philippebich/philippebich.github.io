@@ -10,7 +10,12 @@
         <p class="authors">
           {{ paper.authors | replace: "Philippe Bich", "<span class='underline'>Philippe Bich</span>" | raw }}
         </p>
-        <p class="journal">{{ paper.journal }}</p>
+        <p class="journal">
+          {{ paper.journal }}
+          {% if paper.preprinturl %}
+            - Preprint available <a href="{{ paper.preprinturl }}">here</a>
+          {% endif %}
+        </p>
         <p class="year">{{ paper.year }}</p>
       </div>
     </div>

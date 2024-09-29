@@ -1,7 +1,8 @@
 - image_url: "images/pub/tpami2024.png"
   title: "On the Universal Approximation Properties of Deep Neural Networks using MAM Neurons"
   authors: "Philippe Bich, Andriy Enttsel, Luciano Prono, Alex Marchioni, Fabio Pareschi, Mauro Mangia, Gianluca Setti, Riccardo Rovatti"
-  journal: "IEEE TPAMI (Under review) - Preprint available [here](https://www.techrxiv.org/users/690227/articles/1217058-on-the-universal-approximation-properties-of-deep-neural-networks-using-mam-neurons)"
+  journal: "IEEE TPAMI (Under review)"
+  preprinturl: "https://www.techrxiv.org/users/690227/articles/1217058-on-the-universal-approximation-properties-of-deep-neural-networks-using-mam-neurons"
   year: "2024"
 
 - image_url: "images/pub/biocas2024.png"
@@ -13,7 +14,8 @@
 - image_url: "images/pub/tnnls2024.png"
   title: "A Multiply-And-Max/min Neuron Paradigm for Aggressively Prunable Deep Neural Networks"
   authors: "Philippe Bich, Luciano Prono, Chiara Boretti, Fabio Pareschi, Riccardo Rovatti, Gianluca Setti"
-  journal: "IEEE TNNLS (Under minor review) - Preprint available [here](https://www.techrxiv.org/users/661582/articles/681537-a-multiply-and-max-min-neuron-paradigm-for-aggressively-prunable-deep-neural-networks)"
+  journal: "IEEE TNNLS (Under minor review)"
+  preprinturl: "https://www.techrxiv.org/users/661582/articles/681537-a-multiply-and-max-min-neuron-paradigm-for-aggressively-prunable-deep-neural-networks"
   year: "2024"
 
 - image_url: "images/pub/cvpr2024.png"
