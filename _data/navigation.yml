@@ -1,0 +1,16 @@
+# main links
+main:
+  - title: "About"
+    url: "/#about-me"
+
+  - title: "News"
+    url: "/#-news"
+
+  - title: "Selected Publications"
+    url: "/#-selected-publications"
+
+  - title: "Education"
+    url: "/#-education"
+
+  - title: "All Publications"
+    url: "/#-all-publications"
