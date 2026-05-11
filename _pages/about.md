@@ -213,7 +213,7 @@ See the [full list at the bottom of the page ↓](#-all-publications).
     <span class="pub-venue workshop">CVPRW</span>
     <div class="pub-body">
       <span class="pub-title">Pedro: an Event-based Dataset for Person Detection in Robotics</span>
-      <span class="pub-meta">CVPR 2023 Workshops.</span>
+      <span class="pub-meta">CVPR 2023 Workshops — 4th International Workshop on Event-Based Vision.</span>
     </div>
   </li>
   <li>
