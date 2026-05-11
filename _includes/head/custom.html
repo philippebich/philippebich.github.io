@@ -93,6 +93,25 @@
 }
 .feat-list .feat-tldr strong { color: #1a1a1a; }
 
+/* Inline "jump to full list" pill */
+.jump-to-pubs {
+  display: inline-block;
+  padding: 0.45em 1em;
+  margin: 0.4em 0 0.8em;
+  background: #fafbfc;
+  color: #2a7ae2;
+  font-size: 0.92em;
+  font-weight: 600;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.jump-to-pubs:hover {
+  background: #2a7ae2;
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Tighten the gap before the Selected Publications heading */
 .news-list + .section-heading,
 .section-heading + .feat-list { margin-top: 0.7em; }

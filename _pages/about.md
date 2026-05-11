@@ -87,7 +87,7 @@ On this page, I try to keep track of my most recent works, talks, and publicatio
   </li>
 </ul>
 
-See the [full list at the bottom of the page ↓](#-all-publications).
+<a class="jump-to-pubs" href="#-all-publications">Browse all publications</a>
 
 
 <h1 class="section-heading" id="-education">📖 Education</h1>
